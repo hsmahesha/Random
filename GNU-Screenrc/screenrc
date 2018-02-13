@@ -1,0 +1,21 @@
+# no welcome message
+startup_message off
+
+# the following two lines give a two-line status, with the current window highlighted
+hardstatus alwayslastline
+hardstatus string '%{= Kd} %{= Kd}%-w%{= Kr}[%{= KW}%n %t%{= Kr}]%{= Kd}%+w %-= %{KG} %H%{KW}|%{KY}%101`%{KW}|%D %M %d %Y%{= Kc} %C%A%{-}'
+
+# huge scrollback buffer
+defscrollback 30000
+
+# clear terminal once exit from vi/vim/less etc
+altscreen on
+
+# tell screen how to set colors. AB = background, AF=foreground
+termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+
+# erase background with current bg color
+defbce "on"
+
+# enable 256 color term
+term xterm-256color
