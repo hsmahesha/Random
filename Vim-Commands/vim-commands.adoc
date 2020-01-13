@@ -191,7 +191,7 @@ Insert mode is where you actually insert i.e. write the text.
 [%autowidth]
 |===
 |[red]#*x*#  | delete current character
-|[red]#*X*#  | delete previous character 
+|[red]#*X*#  | delete previous character
 |[red]#*dl*# | delete current character (same as [red]#*x*#)
 |[red]#*dh*# | delete previous character (same as [red]#*X*#)
 |===
@@ -273,7 +273,7 @@ Insert mode is where you actually insert i.e. write the text.
 |===
 
 
-==== Put Deleted (or Yanked) Text
+==== Put Deleted or Yanked Text (Paste)
 [%autowidth]
 |===
 |[red]#*p*# | put recently deleted (or yanked) text after current character
@@ -292,12 +292,6 @@ Insert mode is where you actually insert i.e. write the text.
 
 
 === Switch To Insert Mode
-==== Replace
-[%autowidth]
-|===
-|[red]#*R*# | start replacing text from current character
-|===
-
 ==== Insert
 [%autowidth]
 |===
@@ -351,6 +345,12 @@ Insert mode is where you actually insert i.e. write the text.
 |[red]#*c-*# | delete line in backward direction, and start insertion (same as [red]#*ck*#)
 |[red]#*cj*# | delete line in forward direction, and start insertion
 |[red]#*c+*# | delete line in forward direction, and start insertion (same as [red]#*cj*#)
+|===
+
+===== Replace
+[%autowidth]
+|===
+|[red]#*R*# | start replacing text from current character
 |===
 
 
