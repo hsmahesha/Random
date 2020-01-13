@@ -4,35 +4,38 @@
 :sectnums:
 :icons: font
 :toc:
-:toclevels: 6 
+:toclevels: 6
 
 
 == Introduction
 This document briefly explains the functionalities of different *vim* editor
 commands. We assume that the reader has some experience working with vim
-editor, and the aim here is to provide a cheat sheet for some important vim 
+editor, and the aim here is to provide a cheat sheet for some important vim
 commands by logically organiging them.
 
 == Vim Modes
 Vim traces its ancestry back to *vi*, vi in turn traces its ancestry back to a
-line editor called *ex*. The DNA of these early Unix text editors is preserved 
+line editor called *ex*. The DNA of these early Unix text editors is preserved
 in modern vim. In accordance, vim preserves the modal architecture of these
 ancestors, and exposes following modes.
 
-=== Normal Mode
-Normal mode is where you can run most of the vim commands. This is the default
-mode in which Vim starts up.
+=== Command Mode
+Command mode is where you ask vim to perform different operations by giving it a
+respective command.
+
+==== Normal Mode
+Normal mode is a command mode where you can run most of the vim commands. This
+is the default mode in which Vim starts up.
+
+==== Visual Mode
+Visual mode is a command mode where you visually select a bunch of text so that
+you can run a command/operation only on that part of the text.
+
+==== Command-Line Mode
+Command-Line mode is an another command mode where you can run *ex* commands.
 
 === Insert Mode
-Insert mode is where you insert i.e. write the text.
-
-=== Visual Mode
-Visual mode is where you visually select a bunch of text so that you can run a
-command/operation only on that part of the text.
-
-=== Command-Line Mode
-Command-Line mode is where you can run *ex* commands.
-
+Insert mode is where you actually insert i.e. write the text.
 
 == Normal Mode Commands
 === Quit Vim
